@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="roommgmt-angular:war">
+    <output-path>$PROJECT_DIR$/angular/target</output-path>
+    <root id="archive" name="roommgmt-angular-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="roommgmt-angular:war exploded" />
+    </root>
+  </artifact>
+</component>

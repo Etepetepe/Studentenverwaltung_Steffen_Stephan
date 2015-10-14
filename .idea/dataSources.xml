@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4043757765">
+    <data-source source="LOCAL" name="H2 - Room Management" uuid="a47057cc-5880-4094-bb72-761662ee88b1">
+      <driver-ref>h2.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:/tmp/h2/db/roommanagement</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

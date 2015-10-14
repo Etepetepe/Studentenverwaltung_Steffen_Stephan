@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/roommgmt.iml" filepath="$PROJECT_DIR$/roommgmt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/angular/roommgmt-angular.iml" filepath="$PROJECT_DIR$/angular/roommgmt-angular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/roommgmt-service.iml" filepath="$PROJECT_DIR$/service/roommgmt-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts/roommgmt-struts.iml" filepath="$PROJECT_DIR$/struts/roommgmt-struts.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="default" extends="tiles-default">
+
+        <action name="showRoomList" class="de.nordakademie.iaa.roommgmt.action.ShowRoomListAction">
+            <result type="tiles">roomTable</result>
+        </action>
+
+        <action name="addRoom">
+            <result type="tiles">roomForm</result>
+        </action>
+
+        <action name="loadRoom" class="de.nordakademie.iaa.roommgmt.action.RoomAction"
+                method="loadRoom">
+            <result type="tiles">roomForm</result>
+        </action>
+
+        <action name="saveRoom" class="de.nordakademie.iaa.roommgmt.action.RoomAction"
+                method="saveRoom">
+            <result name="input" type="tiles">roomForm</result>
+            <result type="redirectAction">showRoomList</result>
+        </action>
+
+        <action name="deleteRoom" class="de.nordakademie.iaa.roommgmt.action.RoomAction"
+                method="deleteRoom">
+            <result type="redirectAction">showRoomList</result>
+        </action>
+
+        <action name="cancelRoom">
+            <result type="redirectAction">showRoomList</result>
+        </action>
+
+    </package>
+</struts>
